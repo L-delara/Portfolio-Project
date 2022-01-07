@@ -31,6 +31,7 @@ body {
 
 .btn-theme {
   font-family: "Montserrat", sans-serif;
+  font-weight: bold;
   color: var(--secondary-color);
   background: #ffffff;
   font-size: 12px;
