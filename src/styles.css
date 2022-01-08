@@ -28,23 +28,21 @@ h4 {
   width: 1440;
   height: 500px;
   margin-top: 55px;
-  margin-bottom: 25px;
 }
 .hero h1 {
   font-size: 72px;
-  line-height: 1.5;
 }
 .hero h2 {
   font-family: var(--primary-font);
   font-size: 24px;
   font-weight: 700;
   padding-top: 35px;
-  line-height: 1;
 }
 .hero p {
   font-family: var(--primary-font);
   font-size: 18px;
   font-weight: lighter;
+  line-height: 1.5;
 }
 
 .btn-theme {
