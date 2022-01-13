@@ -1,5 +1,5 @@
 :root {
-  --background-color: #e5e6d4d5;
+  --background-color: #fdffdac7;
   --primary-color: #f8f5ce;
   --secondary-color: #272142;
   --primary-font: "Roboto", sans-serif;
@@ -57,13 +57,40 @@ p {
   line-height: 1;
 }
 
+.about-hero h1 {
+  font-size: 64px;
+  font-weight: bold;
+  text-align: left;
+  font-family: var(--primary-font);
+  color: var(--secondary-color);
+}
+.about-hero h2 {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: right;
+  font-family: var(--primary-font);
+  color: var(--secondary-color);
+}
+.about-hero p {
+  font-size: 16px;
+  font-weight: lighter;
+  line-height: 20px;
+  text-align: left;
+  font-family: var(--primary-font);
+  color: var(--secondary-color);
+}
+
+.about-info {
+  margin: 15px;
+}
+
 .btn-theme {
   font-family: var(--secondary-font);
   font-weight: bold;
   color: var(--secondary-color);
   background: var(--primary-color);
   font-size: 12px;
-  border: 1px solid var(--primary-color);
+  border: 1px solid var(--secondary-color);
   border-radius: 50px;
   padding: 18px 40px;
   margin-top: 30px;
@@ -116,6 +143,13 @@ p {
     font-size: 16px;
     font-weight: 500;
   }
+  .about-hero h1 {
+    font-size: 38px;
+  }
+  .about-hero p {
+    font-size: 14px;
+  }
+
   .hero {
     background-image: url("/images/header-pattern.jpg");
     background-repeat: no-repeat;
