@@ -1,6 +1,6 @@
 :root {
-  --background-color: #fdffdac7;
-  --primary-color: #f8f5ce;
+  --background-color: #fdfdfdf5;
+  --primary-color: #fdfbdff3;
   --secondary-color: #272142;
   --primary-font: "Roboto", sans-serif;
   --secondary-font: "Montserrat", sans-serif;
@@ -57,21 +57,21 @@ p {
   line-height: 1;
 }
 
-.about-hero h1 {
+.content-container h1 {
   font-size: 64px;
   font-weight: bold;
   text-align: left;
   font-family: var(--primary-font);
   color: var(--secondary-color);
 }
-.about-hero h2 {
+.content-container h2 {
   font-size: 18px;
   font-weight: bold;
-  text-align: right;
+  text-align: center;
   font-family: var(--primary-font);
   color: var(--secondary-color);
 }
-.about-hero p {
+.content-container p {
   font-size: 16px;
   font-weight: lighter;
   line-height: 20px;
@@ -80,8 +80,12 @@ p {
   color: var(--secondary-color);
 }
 
-.about-info {
-  margin: 15px;
+.gallery-images {
+  max-height: 300px;
+  width: auto;
+  display: flex;
+  padding: 0;
+  margin: auto;
 }
 
 .contact-hero h1 {
@@ -159,10 +163,10 @@ p {
     font-size: 16px;
     font-weight: 500;
   }
-  .about-hero h1 {
+  .content-container h1 {
     font-size: 38px;
   }
-  .about-hero p {
+  .content-container p {
     font-size: 14px;
   }
 
