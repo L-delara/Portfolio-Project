@@ -12,9 +12,7 @@ body {
   background-color: var(--background-color);
 }
 h1,
-h2,
-h3,
-h4 {
+h2 {
   font-family: var(--primary-font);
   font-weight: bold;
 }
@@ -30,13 +28,15 @@ p {
   line-height: 25px;
   font-weight: bold;
 }
-.logo {
-  max-width: 200px;
-  max-height: 100px;
-}
+
 .featured-project {
   max-height: 700px;
   border-radius: 8px;
+}
+
+.logo {
+  max-width: 200px;
+  max-height: 100px;
 }
 nav {
   padding: 5px 20px 0px;
@@ -157,12 +157,15 @@ footer a:hover {
 }
 .contact-hero a {
   font-family: var(--secondary-font);
+  color: var(--accent);
   text-decoration: none;
+  font-size: 18px;
 }
 .contact-hero a:hover {
   font-family: var(--secondary-font);
   text-decoration: none;
-  color: #bf4949c7;
+  color: var(--accent);
+  font-size: 15px;
 }
 
 .btn-theme {
@@ -216,12 +219,22 @@ footer a:hover {
   .hero p {
     font-size: 14px;
   }
+  .hero {
+    background-image: url("/images/header-pattern.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: absolute;
+    background-color: var(--background-color);
+    color: var(--primary-color);
+  }
+
   h2 {
-    font-size: 26px;
+    font-size: 28px;
     font-weight: bold;
   }
   p {
-    font-size: 16px;
+    font-size: 13px;
+    line-height: 1.2;
     font-weight: 500;
   }
   .content-container h1 {
@@ -241,29 +254,28 @@ footer a:hover {
   .contact-hero a {
     font-size: 15px;
   }
+
   nav {
     padding: 0;
+  }
+  nav ul {
+    margin: -3px;
   }
   nav li {
     font-size: 12px;
     line-height: 80px;
   }
-  footer {
-    font-size: 20px;
-  }
-
   .logo {
     max-height: 80px;
   }
-  .hero {
-    background-image: url("/images/header-pattern.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: absolute;
-    background-color: var(--background-color);
-    color: var(--primary-color);
+
+  footer {
+    font-size: 20px;
   }
-  .featured {
-    text-align: center;
+  .credits,
+  .credits a,
+  .credits a:hover {
+    font-size: 11px;
+    padding-left: 0;
   }
 }
