@@ -2,6 +2,7 @@
   --background-color: #fdfdfdf5;
   --primary-color: #fdfbdff3;
   --secondary-color: #272142;
+  --accent: #bf4949c7;
   --primary-font: "Roboto", sans-serif;
   --secondary-font: "Montserrat", sans-serif;
 }
@@ -33,6 +34,10 @@ p {
   max-width: 200px;
   max-height: 100px;
 }
+.featured-project {
+  max-height: 700px;
+  border-radius: 8px;
+}
 nav {
   padding: 5px 20px 0px;
 }
@@ -55,8 +60,32 @@ nav a {
 }
 nav a:hover,
 nav li.active a {
-  color: #272142b9;
+  color: var(--accent);
 }
+footer {
+  padding: 20px;
+  margin: 30px;
+  border: 1px solid #27214283;
+  border-radius: 6px;
+}
+footer a {
+  font-size: 30px;
+  color: var(--accent);
+  text-decoration: none;
+  padding-left: 10px;
+}
+footer a:hover {
+  font-size: 25px;
+  color: var(--accent);
+  text-decoration: none;
+}
+.credits,
+.credits a,
+.credits a:hover {
+  font-size: 14px;
+  padding-left: 0;
+}
+
 .hero {
   background-image: url("/images/header-pattern.jpg");
   background-repeat: no-repeat;
@@ -130,6 +159,11 @@ nav li.active a {
   font-family: var(--secondary-font);
   text-decoration: none;
 }
+.contact-hero a:hover {
+  font-family: var(--secondary-font);
+  text-decoration: none;
+  color: #bf4949c7;
+}
 
 .btn-theme {
   font-family: var(--secondary-font);
@@ -161,7 +195,7 @@ nav li.active a {
 }
 
 .btn-theme-reverse:hover {
-  background: var(--primary-color);
+  background: var(--background-color);
   color: var(--secondary-color);
 }
 
@@ -214,6 +248,10 @@ nav li.active a {
     font-size: 12px;
     line-height: 80px;
   }
+  footer {
+    font-size: 20px;
+  }
+
   .logo {
     max-height: 80px;
   }
